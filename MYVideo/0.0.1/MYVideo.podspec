@@ -85,7 +85,7 @@ Pod::Spec.new do |s|
   #
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
-  s.resources = 'Resources'
+  # s.resources = 'Resources'
 
   # A list of paths to preserve after installing the Pod.
   # CocoaPods cleans by default any file that is not used.
