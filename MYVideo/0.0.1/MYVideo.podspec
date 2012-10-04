@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   s.source       = { :svn => 'https://mytrus.jira.com/svn/IOS/trunk/ipad/components/MYVideo/MYVideo' }
   s.platform     = :ios, '6.0'
   s.source_files = 'Classes'
-  s.resources = 'Classes/*.xib'
-  s.frameworks = 'MediaPlayer'
+  s.resources    = ['Classes/*.xib', 'Resources/**/*.png']
+  s.frameworks   = 'MediaPlayer'
   s.requires_arc = true
   s.dependency 'MYLocalization'
 end
